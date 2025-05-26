@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Al-Quran-Academy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+
+
+.transparent-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: 2px solid rgba(255,255,255,0.3);
+}
+
+    /* Reset & Base */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Cairo', sans-serif;
+      background: linear-gradient(to right, #07af7d, #06996d);
+      color: #222;
+      overflow-x: hidden;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(to right, #007f5f, #2b9348);
+      color: white;
+      padding: 20px 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .logo h1 {
+      font-size: 30px;
+      background: linear-gradient(45deg, #f5cb5c, #ffffff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .tabs a {
+      color: #fff;
+      margin-left: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: 30px;
+      background: #55a630;
+      transition: background 0.3s ease;
+    }
+
+    .tabs a:hover {
+      background: #ffd60a;
+      color: #000;
+    }
+
+    /* Section Containers */
+    section {
+      padding: 50px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 15px;
+      padding: 35px;
+      margin-bottom: 40px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 10px 25px rgba(0, 128, 128, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 15px 30px rgba(0, 128, 128, 0.3);
+    }
+
+    h1, h4 {
+      color: #023047;
+    }
+
+    h5, p, li {
+      color: #333;
+    }
+
+    ul {
+      list-style-type: circle;
+      padding-left: 20px;
+      margin-top: 10px;
+    }
+
+    /* Table Styles */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 15px rgba(0, 128, 128, 0.15);
+    }
+
+    caption {
+      background: #40916c;
+      color: #fff;
+      font-size: 22px;
+      padding: 15px;
+      font-weight: bold;
+    }
+
+    th, td {
+      padding: 16px;
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+    }
+
+    th {
+      background: #52b788;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background: #f0fdf4;
+    }
+
+    tr:hover {
+      background: #e3fcec;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .tabs {
+        margin-top: 10px;
+      }
+
+      .tabs a {
+        display: block;
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <h1>Al-Quran-Academy</h1>
+    </div>
+    <div class="tabs">
+      <a href="#home">Home</a>
+      <a href="#about-course">Courses</a>
+      <a href="#courses-timing">Timings</a>
+      <a href="#time-table">Schedule</a>
+    </div>
+  </header>
+
+  <section id="home">
+    <div class="card">
+      <h1>Welcome to Al-Quran-Academy </h1>
+      <h5>Your destination for Islamic and IT excellence. We offer authentic Islamic knowledge and modern tech courses in one platform.</h5>
+    </div>
+  </section>
+
+  <section id="about-course">
+    <div class="card">
+      <h4>📚 Our Courses:</h4>
+      <ul>
+        <li>🖥️ IT Courses: Artificial Intelligence, Web Development, etc.</li>
+        <li>🕌 Islamic Courses: Tafseer, Hadith, Fiqh, and Aqeedah</li>
+        <li>📘 Arabic Language: Reading, Writing, Speaking</li>
+        <li>💡 Personal Development: Leadership, Communication</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="courses-timing">
+    <div class="card">
+      <h1>⏰ Course Timings</h1>
+      <h3>AI & IT</h3>
+      <p>🕔 5:00 PM – 7:00 PM (Mon-Wed)</p>
+      <h3>Madarsa Program</h3>
+      <p>🕗 8:00 AM – 4:00 PM (Mon-Fri with school)</p>
+    </div>
+  </section>
+
+  <section id="time-table">
+    <div class="card">
+      <table>
+        <caption>📅 Time-Table Of Classes</caption>
+        <thead>
+          <tr>
+            <th>Course Name</th>
+            <th>Days</th>
+            <th>Timings</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>AI</td>
+            <td>Mon - Wed</td>
+            <td>5 PM - 7 PM</td>
+          </tr>
+          <tr>
+            <td>IT</td>
+            <td>Mon - Wed</td>
+            <td>7 PM - 9 PM</td>
+          </tr>
+          <tr>
+            <td>Madarsa + School</td>
+            <td>Mon - Fri</td>
+            <td>9 AM - 4 PM</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+</body>
+</html>
+
+        

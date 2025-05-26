@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Forms</title>
+
+    <style>
+        /* Reset & Base Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #8e2de2, #4a00e0);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        form {
+            background-color: #ffffff;
+            padding: 30px 40px;
+            border-radius: 12px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #4a00e0;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 14px;
+            transition: border-color 0.3s ease;
+        }
+
+        input:focus,
+        select:focus {
+            border-color: #4a00e0;
+            outline: none;
+        }
+
+        select {
+            background-color: #fff;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #4a00e0;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #3a00b0;
+        }
+
+        hr {
+            margin: 30px 0;
+            border: none;
+            height: 1px;
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="">
+        <h1>Learning Form</h1>
+
+        <div>
+            <label for="Name">Name</label>
+            <input id="Name" name="name" type="text" placeholder="Enter your name" required>
+        </div>
+
+        <div>
+            <label for="Address">Address</label>
+            <input id="Address" name="address" type="text" placeholder="Enter your address here" required>
+        </div>
+
+        <div>
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" placeholder="Enter your phone" required>
+        </div>
+
+        <div>
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob" required>
+        </div>
+
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Enter your E-mail" required>
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password" required>
+        </div>
+
+        <div>
+            <label for="time">Time</label>
+            <input type="time" name="time" id="time">
+        </div>
+
+        <hr>
+
+        <div>
+            <label for="Gender">Select your gender</label>
+            <select id="Gender" name="gender" required>
+                <option value="" disabled selected>-- Gender Below --</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Non-binary">Non-binary</option>
+            </select>
+            <br>
+        </div>
+         <div>
+        <label for="Country">Enter your country</label><br>
+        <label for="PK">Pakistan</label>
+        <input type="radio" id="PK"  name="country" value="PK" required>
+        <br>
+        <label for="us">America</label>
+        <input type="radio" id="us" name="country" value="us"required>
+        <br>
+        <label for="RS">Russia</label>
+        <input type="radio" id="RS" id="RS" name="country" value="RS"required><br>
+        </div>
+        <label for="COMMENT">Your feedback below...</label>
+        <textarea name="Feedback" id="COMMENT" cols="30" rows="10"></textarea>
+        <br>
+
+        <div>
+            <label for="agreemant">Policy Agreement</label>
+            <input type="checkbox" name="Policy" id="agreement"required>
+            
+            <input type="submit"value="submit">
+        
+
+
+
+        
+
+    </form>
+
+</body>
+</html>
+
+

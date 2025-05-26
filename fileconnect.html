@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Header Section */
+header {
+    background-color: #2c3e50;
+    padding: 1rem 0;
+}
+
+header .tabs {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+header .tabs a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+header .tabs a:hover {
+    color: #ecf0f1;
+}
+
+/* Section Styling */
+section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+section#about {
+    background-color: #ecf0f1;
+}
+
+section#courses {
+    background-color: #fff;
+}
+
+section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+section h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #34495e;
+}
+
+section p, section ul {
+    font-size: 1rem;
+    color: #7f8c8d;
+    line-height: 1.8;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+section ul li {
+    font-size: 1.1rem;
+    padding: 0.5rem 0;
+    text-align: left;
+}
+
+section#courses ul li {
+    border-bottom: 1px solid #ddd;
+}
+
+section ul li:hover {
+    background-color: #ecf0f1;
+}
+
+/* Footer Section */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+footer h4, footer h5 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+footer span {
+    display: block;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header .tabs {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    section {
+        padding: 2rem 1rem;
+    }
+
+    section h1 {
+        font-size: 2rem;
+    }
+
+    section h4 {
+        font-size: 1.2rem;
+    }
+
+    footer {
+        padding: 1rem 0;
+    }
+
+    footer h4, footer h5 {
+        font-size: 1.1rem;
+    }
+
+    footer span {
+        font-size: 0.9rem;
+    }
+}
+
+  </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="tabs"> 
+       <a href="#about">About</a>
+       <a href="#courses">Courses</a>
+       <a href="#contact">contact</a>
+        </div>
+    </header> 
+       <!-- About ka section. -->
+
+       <section id="about">
+        <div class="about-us">
+            <h1>AL Quran Academy</h1>
+            <p>At Al Quran Academy, our mission is to provide high-quality Quranic and Islamic education to learners of all ages and backgrounds. Founded on the principles of sincerity, knowledge, and service, we aim to make Quran learning accessible, engaging, and spiritually enriching for everyone.</p>
+      </div>
+        </section>
+    
+        <!-- Courses ka section -->
+
+         <section id="courses">
+            <div class="courses">
+             <h1>Courses we are offering</h1>
+             <h4>We offer a range of programs including:</h4>
+           <ul>
+             <li>Quran Reading with Tajweed</li>
+             <li>Memorization (Hifz)</li>
+             <li>IT Courses</li>
+           </ul>
+        </div>
+    </section>
+     <!-- Contact and stuff -->
+
+       <footer id="contact">
+           <div class="contact">
+            <h4>Contavt Us</h4>
+            <h5>AL-Quran Academy</h5>
+           <pre>
+             <p>
+             Email:Info@alqurangmail.com <br>
+             Phone:+92 0332 xxxxx
+             </p>
+             </pre>
+         </div>
+         <span>AL-Quran Academy &copy; 2025</span>
+       </footer>
+    
+    
+</body>
+</html>
