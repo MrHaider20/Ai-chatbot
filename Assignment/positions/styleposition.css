@@ -1,0 +1,14 @@
+ .box1 {
+    border: solid black;
+    width:150px ;
+    height: 150px;
+    
+ }
+
+ .box2 {
+
+       border: solid purple;
+       width: 150px;
+       height: 150px;
+       fill: goldenrod;
+ }

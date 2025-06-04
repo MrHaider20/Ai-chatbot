@@ -1,0 +1,79 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #73608a;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login Container */
+.login-container {
+  background: #09a18d;
+  padding: 2rem;
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Form Inputs */
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+/* Submit Button */
+.login-container button[type="submit"] {
+  width: 100%;
+  padding: 0.75rem;
+  background: #0f519c;
+  color: #ffffff;
+  border: 20PX;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: backgroun 0.3s ease;
+}
+
+.login-container button[type="submit"]:hover {
+  background: #053a6e;
+}
+
+/* Additional Styling */
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.login-container .form-footer {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #fdfdfd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
