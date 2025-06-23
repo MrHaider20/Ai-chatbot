@@ -7,8 +7,8 @@
 
  .box2 {
 
-       border: solid purple;
+       border: solid rgb(30, 151, 167);
        width: 150px;
        height: 150px;
-       fill: goldenrod;
+       fill: rgb(32, 218, 203);
  }

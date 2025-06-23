@@ -1,0 +1,20 @@
+button
+{
+    font-size:75px ;
+    background-color: lightseagreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+button:active {
+    background-color: rgb(145, 209, 28);
+
+}
+a:link{
+    color: darkolivegreen;
+}
+a:visited{
+    color: red;
+}
