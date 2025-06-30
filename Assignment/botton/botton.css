@@ -60,7 +60,7 @@ html, body {
 
 /* hover */
 .btn:hover::before {
-  opacity: 1;
+  opacity: 10;
 }
 
 .btn:active:after {
